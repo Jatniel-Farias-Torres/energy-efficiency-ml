@@ -1,17 +1,45 @@
-# Energy Consumption Prediction in Buildings 🏢⚡
+# Energy Efficiency Prediction 🏢⚡
 
-This project applies Machine Learning techniques to predict the **heating and cooling load** of buildings, based on architectural characteristics such as:
+This project uses Machine Learning techniques to predict the **heating and cooling energy load** of buildings based on architectural characteristics.
 
-- Building orientation
-- Window surface ratio
-- Thickness of walls, roofs, and ceilings
-- Height and number of floors
+## 📌 Project Description
 
-## 📊 Dataset
+We use a dataset from the UCI Machine Learning Repository which includes various physical features of buildings:
 
-The dataset comes from the **University of California at Irvine (UCI)**:  
-[https://archive.ics.uci.edu/ml/datasets/Energy+efficiency](https://archive.ics.uci.edu/ml/datasets/Energy+efficiency)
+- Relative compactness
+- Surface area
+- Wall area
+- Roof area
+- Overall height
+- Orientation
+- Glazing area
+- Glazing area distribution
 
-It includes 8 input features and 2 output variables:
-- `Heating Load`
-- `Cooling Load`
+The goal is to predict:
+
+- **Heating Load** (how much energy is required to heat the building)
+- **Cooling Load** (how much energy is required to cool the building)
+
+## 🔗 Dataset Source
+
+📥 [UCI Energy Efficiency Dataset](https://archive.ics.uci.edu/ml/datasets/Energy+efficiency)
+
+---
+
+## ⚙️ Tools & Technologies
+
+- Python
+- Pandas
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+## 🧠 ML Algorithms Used
+
+- Linear Regression
+- Decision Tree Regression
+- Random Forest Regression (optional)
+
+## 📁 Repository Structure
+
