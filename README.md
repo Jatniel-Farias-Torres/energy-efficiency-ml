@@ -42,4 +42,14 @@ The goal is to predict:
 - Random Forest Regression (optional)
 
 ## 📁 Repository Structure
+```
+energy-efficiency-ml/
+├── data/                   # Raw and cleaned datasets
+├── notebooks/              # Jupyter Notebooks with analysis
+├── src/                    # Python scripts (optional)
+├── README.md               # Project overview
+├── requirements.txt        # List of Python libraries
+```
+
+---
 
